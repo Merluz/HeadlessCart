@@ -1,0 +1,11 @@
+{
+  "name": "Merluz/headlesscart",
+  "description": "Headless Cart Engine for WooCommerce — no cookies, JWT token, DB session storage.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "HeadlessCart\\": "src/"
+    }
+  }
+}
